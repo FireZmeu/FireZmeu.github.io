@@ -54,6 +54,8 @@ header p {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  margin-bottom: 3%;
+  
 }
 
 #main-color, #accent1, #accent2, #accent3 {
@@ -63,7 +65,21 @@ header p {
   margin-top: 2%;
   width: 40%;
   text-align: center;
+  box-shadow: 10px 10px 1px gray;
 }
+
+#main-color:hover, #accent1:hover, #accent2:hover, #accent3:hover {
+  background-color: #839791;
+  cursor: pointer;
+}
+
+#main-color:active, #accent1:active, #accent2:active, #accent3:active {
+  box-shadow: none;
+  margin-top: 2%;
+  transform: scale(0.95);
+
+}
+
 
 #main-color {
   background-color: #896978;
@@ -81,4 +97,127 @@ header p {
 
 #accent3 {
   background-color: #EFD5C3;
+}
+
+
+.typography-banner {
+  background-color: #839791;
+  min-height: 200px;
+  width: 100%;
+  margin: auto;
+  padding-top: 10%;
+}
+
+#typo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5em;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: white;
+  text-align: center;
+}
+
+#typo-P {
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  margin-top: -10px;
+}
+
+.typography-body h1 {
+  color: #896978;
+}
+
+.typography-body p {
+  text-align: center;
+}
+
+.typography-body li {
+  
+  text-align: center;
+  list-style-type: none;
+
+}
+
+.typography-body h3 {
+  font-size: 1.4em;
+  font-weight: 400;
+  text-align: center;
+  color: #AAC0AF;
+  margin-top: -3%;
+}
+
+.typography-body h2 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  text-decoration: underline;
+  color: #EFD5C3;
+  text-align: center;
+}
+
+.buttons {
+  width: 100%;
+  margin:auto;
+  padding-top: 3%;
+  text-align: center;
+}
+
+#button1 {
+  background-color: #896978;
+  margin: auto;
+  margin-bottom: 1%;
+  width: 30%;
+  font-size: 2em;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 1px gray;
+}
+
+#button2 {
+  background-color: #AAC0AF;
+  width: 30%;
+  font-size: 2em;
+  padding: 2%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 1px gray;
+  
+}
+
+#button1 a, #button2 a {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  color: white;
+  text-decoration: none;
+}
+
+#button1 a:hover, #button2 a:hover {
+  color: #EFD5C3;
+}
+
+#button1:hover {
+  background-color: gray;
+}
+
+#button2:hover {
+  background-color: gray;
+}
+
+#button1:active {
+  box-shadow: none;
+  margin-top: 2%;
+  transform: scale(0.95);
+}
+
+#button2:active {
+  box-shadow: none;
+  margin-top: 2%;
+  transform: scale(0.95);
 }
